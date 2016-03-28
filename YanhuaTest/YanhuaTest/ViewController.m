@@ -35,7 +35,7 @@
     [self.view addSubview:myView];
     
     UILabel *labelTitle = [[UILabel alloc] initWithFrame:CGRectMake(10, 20, myView.frame.size.width - 10*2, 44)];
-    labelTitle.text = @"告严华";
+    labelTitle.text = @"告颜华";
     labelTitle.textAlignment = NSTextAlignmentCenter;
     [myView addSubview:labelTitle];
     
@@ -92,22 +92,22 @@
     [super viewDidAppear:animated];
     
     
-//    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"告严华!" message:@"慢慢摸索,一点一点积累,才能有所进步,祝你早日找到一份满意的工作" preferredStyle:UIAlertControllerStyleAlert];
-//    
-//    UIAlertAction *ok = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-//        
-//    }];
-//    
-//    UIAlertAction *cancle = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
-//        
-//    }];
-//    
-//    [alert addAction:ok];
-//    [alert addAction:cancle];
-//    
-//    [self presentViewController:alert animated:YES completion:^{
-//        
-//    }];
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"告严华!" message:@"慢慢摸索,一点一点积累,才能有所进步,祝你早日找到一份满意的工作" preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction *ok = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        
+    }];
+    
+    UIAlertAction *cancle = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+        
+    }];
+    
+    [alert addAction:ok];
+    [alert addAction:cancle];
+    
+    [self presentViewController:alert animated:YES completion:^{
+        
+    }];
     
    
 }
